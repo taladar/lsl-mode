@@ -1,0 +1,6 @@
+It seems I didn't properly separate stuff into files
+back when I wrote this so you will have to byte-compile
+this twice before it loads without an error.
+
+Some (require...) might also be missing as they are earlier
+my .emacs, e.g. (require 'cl)
