@@ -1,4 +1,3 @@
-;; --------------------------------------------------------------------------------
 ;;; lsl-mode.el --- major mode for editing LSL scripts (Linden Scripting Language)
 
 ;; Copyright (C) 2006 Reinhard Neurocam
@@ -18,7 +17,8 @@
 ;; the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 ;; Boston, MA 02111-1307, USA.
 
-;; COMMENTS:
+;;; Commentary:
+
 ;; This major mode is a simple derived mode from c-mode.el, setting
 ;; indentation-defaults to be consistent with the SL-editor, and
 ;; introducing new font-lock keywords
@@ -39,6 +39,8 @@
 ;; Written originally by Reinhard Neurocam
 ;; Written lslinit extension by Turkey Scofield 2007/02/21
 ;; Abbrev+Skeleton+Eldoc extensions and some other small changes by Scott Bristol 2007/03/11
+
+;;; Code:
 
 (if (and load-file-name
          (equal (file-name-extension load-file-name) "el"))
